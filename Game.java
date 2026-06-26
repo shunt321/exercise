@@ -29,5 +29,10 @@ class Game {
             }
         }
         System.out.println("Heads: "+ head +", Tails: "+ tail);
+        if(head > tail) {
+            System.out.println("you won!");
+        } else {
+            System.out.println("you lost");
+        }
     }
 }
