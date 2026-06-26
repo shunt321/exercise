@@ -9,6 +9,11 @@ class Game {
         Random random = new Random();
 
         System.out.println("Tossing a coin..");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Who are you?");
+        String name = scanner.nextLine();
+        System.out.println("Hello, "+ name + "!");
 
         int r = 0;
         int head = 0;
