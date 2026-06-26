@@ -35,9 +35,9 @@ class Game {
         }
         System.out.println("Heads: "+ head +", Tails: "+ tail);
         if(head > tail) {
-            System.out.println("you won!");
+            System.out.println(name + " won!");
         } else {
-            System.out.println("you lost");
+            System.out.println(name + " lost");
         }
     }
 }
